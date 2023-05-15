@@ -6,6 +6,12 @@ struct ofxMQTTMessage {
   string payload;
   bool retain;
   int qos;
+
+  auto getPayload() { return payload; }
+  auto getTopic() { return topic; }
+  auto getRetain() { return retain; }
+  auto getQos() { return qos; }
+
 };
 
 class ofxMQTT {
