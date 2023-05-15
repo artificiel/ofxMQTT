@@ -1,5 +1,6 @@
 #include "mosquitto.h"
 #include "ofMain.h"
+#include "ofThreadChannel.h"
 
 struct ofxMQTTMessage {
   string topic;
@@ -30,9 +31,12 @@ class ofxMQTT {
 
   int mid = 0;
   int nextMid();
+  bool threaded;
+  ofThreadChannel<ofxMQTTMessage> messagesChannel;
 
  public:
   ofxMQTT();
+  ofxMQTT(bool threaded = false);
   ~ofxMQTT();
 
   void begin(string hostname);
@@ -49,7 +53,9 @@ class ofxMQTT {
   bool connected();
   void disconnect();
 
+  std::optional<ofxMQTTMessage> getNextMessage();
   std::string lib_version();
+
   ofEvent<void> onOnline;
   ofEvent<ofxMQTTMessage> onMessage;
   ofEvent<void> onOffline;
@@ -58,4 +64,11 @@ class ofxMQTT {
   void _on_connect(int rc);
   void _on_disconnect(int rc);
   void _on_message(const struct mosquitto_message *message);
+};
+
+// prefer explicit name than opaque bool arg
+// and the use cases are probably not dynamic "swap-in"
+class ofxThreadedMQTT : public ofxMQTT {
+ public:
+  ofxThreadedMQTT() : ofxMQTT(true){};
 };
