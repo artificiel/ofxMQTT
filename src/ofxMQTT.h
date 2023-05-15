@@ -4,13 +4,15 @@
 struct ofxMQTTMessage {
   string topic;
   string payload;
+	
 };
 
 class ofxMQTT {
  private:
   struct mosquitto *mosq;
   bool alive = false;
-
+  bool threaded = false;
+  size_t received_messages;
   string hostname;
   int port;
   string clientId;
@@ -23,8 +25,10 @@ class ofxMQTT {
   int nextMid();
 
  public:
-  ofxMQTT();
+  ofxMQTT(bool threaded = false);
   ~ofxMQTT();
+
+  std::string lib_version();
 
   void begin(string hostname);
   void begin(string hostname, int port);
@@ -40,6 +44,8 @@ class ofxMQTT {
   bool connected();
   void disconnect();
 
+  std::optional<ofxMQTTMessage> getNextMessage();
+  ofThreadChannel<ofxMQTTMessage> messagesChannel;
   ofEvent<void> onOnline;
   ofEvent<ofxMQTTMessage> onMessage;
   ofEvent<void> onOffline;
