@@ -114,6 +114,11 @@ void ofxMQTT::update() {
   int rc1 = mosquitto_loop(mosq, 0, 100);
   if (rc1 != MOSQ_ERR_SUCCESS) {
     ofLogError("ofxMQTT") << "Loop error: " << mosquitto_strerror(rc1);
+std::string ofxMQTT::lib_version() {
+  int x, y, z;
+  mosquitto_lib_version(&x, &y, &z);
+  return ofToString(x) + "." + ofToString(y) + "." + ofToString(z);
+}
 
     int rc2 = mosquitto_reconnect(mosq);
     if (rc2 != MOSQ_ERR_SUCCESS) {

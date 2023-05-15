@@ -1,12 +1,14 @@
 #include "ofApp.h"
 
 void ofApp::setup(){
+  ofLogNotice("Mosquitto MQTT Library version ") << client.lib_version();
   client.begin("public.cloud.shiftr.io", 1883);
   client.connect("openframeworks", "public", "public");
 
   ofAddListener(client.onOnline, this, &ofApp::onOnline);
   ofAddListener(client.onOffline, this, &ofApp::onOffline);
   ofAddListener(client.onMessage, this, &ofApp::onMessage);
+
 }
 
 void ofApp::update() {
