@@ -1,0 +1,1649 @@
+{
+	"archiveVersion": "1",
+	"classes": {},
+	"objectVersion": "54",
+	"objects": {
+		"00D6D32B84B099226431108C": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "ofxOsc.h",
+			"path": "../../../addons/ofxOsc/src/ofxOsc.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"028F3C01A2177A9992488B76": {
+			"explicitFileType": "sourcecode.c.c",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "packet_mosq.c",
+			"path": "../../../addons/ofxMQTT/libs/mosquitto/src/packet_mosq.c",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"029684CF678F70F6D3537A29": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "OscOutboundPacketStream.h",
+			"path": "../../../addons/ofxOsc/libs/oscpack/src/osc/OscOutboundPacketStream.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"03AE18AA8CE7DD1DE06535EC": {
+			"fileRef": "93DDD5610F4F457388FDB5DC",
+			"isa": "PBXBuildFile"
+		},
+		"051E73FCFBEE061CC26C9C61": {
+			"fileRef": "9F823FECD315A63D47A2D3F3",
+			"isa": "PBXBuildFile"
+		},
+		"0546D1A38E13BD319CC9755B": {
+			"fileRef": "9BF3AA0D4FAA89D0F8A0E545",
+			"isa": "PBXBuildFile"
+		},
+		"06739045074CF04C9F6D0354": {
+			"fileRef": "67276A9FB7B22309B4708A7D",
+			"isa": "PBXBuildFile"
+		},
+		"0778943EDCB6C150A9CF519A": {
+			"explicitFileType": "sourcecode.c.c",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "util_mosq.c",
+			"path": "../../../addons/ofxMQTT/libs/mosquitto/src/util_mosq.c",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"088652885A423EF7C7EE8982": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "mosquitto_broker.h",
+			"path": "../../../addons/ofxMQTT/libs/mosquitto/src/mosquitto_broker.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"0A5AB3D1E57CEE6842F5DAD6": {
+			"fileRef": "028F3C01A2177A9992488B76",
+			"isa": "PBXBuildFile"
+		},
+		"0AED834CE4DEC5260AF302A2": {
+			"explicitFileType": "sourcecode.cpp.cpp",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "ofxOscParameterSync.cpp",
+			"path": "../../../addons/ofxOsc/src/ofxOscParameterSync.cpp",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"0B3A92A3B11E0B655F4B783F": {
+			"fileRef": "D1EE6E4AC7380B02CDD508C6",
+			"isa": "PBXBuildFile"
+		},
+		"10FA40917A609D812747BF58": {
+			"fileRef": "F2704D53FDEEEC4A206B1390",
+			"isa": "PBXBuildFile"
+		},
+		"11B4926947498FC107CB9ECA": {
+			"fileRef": "2BEC51D6DB939190ADC1E28D",
+			"isa": "PBXBuildFile"
+		},
+		"13A45017166691128BDAA686": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "property_mosq.h",
+			"path": "../../../addons/ofxMQTT/libs/mosquitto/src/property_mosq.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"15DD81A02333A30E48836A99": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "messages_mosq.h",
+			"path": "../../../addons/ofxMQTT/libs/mosquitto/src/messages_mosq.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"17B4AF7CA05D9D95245C9FB7": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "mosquitto.h",
+			"path": "../../../addons/ofxMQTT/libs/mosquitto/src/mosquitto.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"191CD6FA2847E21E0085CBB6": {
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "text.plist.entitlements",
+			"path": "of.entitlements",
+			"sourceTree": "<group>"
+		},
+		"191EF70929D778A400F35F26": {
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "folder",
+			"name": "openFrameworks",
+			"path": "../../../libs/openFrameworks",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"19B789C429E5AB4A0082E9B8": {
+			"buildActionMask": "2147483647",
+			"files": [],
+			"inputFileListPaths": [],
+			"inputPaths": [],
+			"isa": "PBXShellScriptBuildPhase",
+			"outputFileListPaths": [],
+			"outputPaths": [],
+			"runOnlyForDeploymentPostprocessing": "0",
+			"shellPath": "/bin/sh",
+			"shellScript": "\"$OF_PATH/scripts/osx/xcode_project.sh\"\n"
+		},
+		"1AF99C7AC7FE607D85CFDC72": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "misc_mosq.h",
+			"path": "../../../addons/ofxMQTT/libs/mosquitto/src/misc_mosq.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"1B78C660BAF6306EBD8C0C7F": {
+			"fileRef": "996E15704F599A45214DE78C",
+			"isa": "PBXBuildFile"
+		},
+		"1C87E74B4BECE15C780624F9": {
+			"children": [
+				"27A4550A435001D0D055BD89"
+			],
+			"isa": "PBXGroup",
+			"name": "mosquitto",
+			"sourceTree": "<group>"
+		},
+		"1D038DD67B41B307D59002C2": {
+			"fileRef": "A875F2E476C9337D7C4FA4DD",
+			"isa": "PBXBuildFile"
+		},
+		"1F44B27F39460F020134ED3A": {
+			"fileRef": "5A1E40FD42DBA5DF0D463E1E",
+			"isa": "PBXBuildFile"
+		},
+		"205352D1195479FFFEC65BA9": {
+			"fileRef": "E2249D7829E9AD51C3F4086E",
+			"isa": "PBXBuildFile"
+		},
+		"20D1913E6369C7B0319284FA": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "net_mosq.h",
+			"path": "../../../addons/ofxMQTT/libs/mosquitto/src/net_mosq.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"20F35AFADAF0068B067E713F": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "OscReceivedElements.h",
+			"path": "../../../addons/ofxOsc/libs/oscpack/src/osc/OscReceivedElements.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"211F00C981FEC747712A3AC1": {
+			"fileRef": "EB87FF939E869F210F314D2F",
+			"isa": "PBXBuildFile"
+		},
+		"23640F57DF6C4BB6BFC5DA4C": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "PacketListener.h",
+			"path": "../../../addons/ofxOsc/libs/oscpack/src/ip/PacketListener.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"2509FE75FC54C76DD7ED3FC2": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "memory_mosq.h",
+			"path": "../../../addons/ofxMQTT/libs/mosquitto/src/memory_mosq.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"2782F8A3CB483BA8083FED86": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "util_mosq.h",
+			"path": "../../../addons/ofxMQTT/libs/mosquitto/src/util_mosq.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"27A4550A435001D0D055BD89": {
+			"children": [
+				"5238C81C267C1BCAEB3497CA",
+				"645D98D2C5852BC2335BBF8E",
+				"B93FE97E077EB68F1BB54A08",
+				"996E15704F599A45214DE78C",
+				"A4340F3A21D33E59C412EC23",
+				"41833AA3ED8DEAB0B9240888",
+				"3ACBBCD609D27CC6EC594491",
+				"3E777BE6A86ADD9AF9CD1C00",
+				"BC21506D0EBAFD57D765AE33",
+				"35965DA1C1353EA1396AAE81",
+				"4BE86EBC9CC015F905A9251D",
+				"FE590D6920F857770359DD04",
+				"75F93827C0AC18BB9A4C5061",
+				"C47B267674C0FB2984B769E8",
+				"9F823FECD315A63D47A2D3F3",
+				"EB401833EDA649B4C7A0407B",
+				"74E6AF2C8A8BDC8BAC3E02BA",
+				"67276A9FB7B22309B4708A7D",
+				"4A5D508BC6826F402D221B8C",
+				"E974CD4A26ED4E10E91FC4B7",
+				"B1F8CE177C7A4F366DEE28FE",
+				"4DD44A44D88D2C6519FCDB5E",
+				"2509FE75FC54C76DD7ED3FC2",
+				"3A4DECDF4B1DB8DFE5755300",
+				"15DD81A02333A30E48836A99",
+				"6602FD4C577716DFAA41D62F",
+				"1AF99C7AC7FE607D85CFDC72",
+				"335F43D916C1CBDCFAA1B125",
+				"17B4AF7CA05D9D95245C9FB7",
+				"088652885A423EF7C7EE8982",
+				"3B5A93662FC78C5825F602BC",
+				"2A1E7DB8FA2709037A182057",
+				"FE718A5FE1EF61DF9DA49D7A",
+				"F785481E783AC1B173C0F9F8",
+				"20D1913E6369C7B0319284FA",
+				"BF98232BAA692F434D1BFC3C",
+				"32D1ECD6C135C77BA97F67BC",
+				"2BEC51D6DB939190ADC1E28D",
+				"028F3C01A2177A9992488B76",
+				"881F54889AB290CC505E24ED",
+				"7CC0E9F48CF3D2D83CB1FAB7",
+				"13A45017166691128BDAA686",
+				"91C2499493EA62FE13CE033C",
+				"730C7A8B1D5A7F69CF0D40FB",
+				"8F5F3060A26DACB4E231E3DF",
+				"36485BEAF12A3FEAAB6EFF3C",
+				"EB87FF939E869F210F314D2F",
+				"F805BEEC53A63135FB70B646",
+				"D1EE6E4AC7380B02CDD508C6",
+				"A7551F4B1097DC533D99E22D",
+				"74238AE138CE2A3267A36D5D",
+				"9D667BD792E0766F252F07BA",
+				"70ECB1F720163CD7CED428E8",
+				"5A1E40FD42DBA5DF0D463E1E",
+				"E2249D7829E9AD51C3F4086E",
+				"E1127148A89C799E5A5384E8",
+				"72FABF3779322048847A3112",
+				"44DE9CF1E987E9EA87749691",
+				"86E56FC6895A2058C9F55B92",
+				"8F533D77E66E6FEFC37999F2",
+				"93DDD5610F4F457388FDB5DC",
+				"A7470AA0098F08B0BCEE7759",
+				"0778943EDCB6C150A9CF519A",
+				"2782F8A3CB483BA8083FED86",
+				"F2704D53FDEEEC4A206B1390",
+				"41128E9B59DB19A2E4CB2593",
+				"A875F2E476C9337D7C4FA4DD",
+				"70D2C701C7F0797A33079850"
+			],
+			"isa": "PBXGroup",
+			"name": "src",
+			"sourceTree": "<group>"
+		},
+		"27D2C077F8ABE97A697B4A6D": {
+			"children": [
+				"F9550D43A7A9A99BA6246474",
+				"3006A7CC31083764959FD239"
+			],
+			"isa": "PBXGroup",
+			"name": "src",
+			"sourceTree": "<group>"
+		},
+		"28CB59985E95BF039A6BDCB1": {
+			"fileRef": "74E6AF2C8A8BDC8BAC3E02BA",
+			"isa": "PBXBuildFile"
+		},
+		"2A1E7DB8FA2709037A182057": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "mosquitto_plugin.h",
+			"path": "../../../addons/ofxMQTT/libs/mosquitto/src/mosquitto_plugin.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"2BEC51D6DB939190ADC1E28D": {
+			"explicitFileType": "sourcecode.c.c",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "packet_datatypes.c",
+			"path": "../../../addons/ofxMQTT/libs/mosquitto/src/packet_datatypes.c",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"2D662D89EF69AB6A87F2892F": {
+			"fileRef": "4DD44A44D88D2C6519FCDB5E",
+			"isa": "PBXBuildFile"
+		},
+		"2FD4B0329909D3527F003494": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "UdpSocket.h",
+			"path": "../../../addons/ofxOsc/libs/oscpack/src/ip/UdpSocket.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"3006A7CC31083764959FD239": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "ofxMQTT.h",
+			"path": "../../../addons/ofxMQTT/src/ofxMQTT.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"30CB364908817057B430D528": {
+			"children": [
+				"AE335EB4709BFD4671EEAC84",
+				"F4F5B6B8BA2BD52C646ED908",
+				"A2AAA8CA403479E6FCDF920E",
+				"63A47AC60FFAFC3BF093EC0F",
+				"029684CF678F70F6D3537A29",
+				"6B65E6930994CC4B2D2B8B33",
+				"BC8881B3C8C0A1C45F042E7A",
+				"4E95FB446A9C9C6F0DE12D75",
+				"9BF3AA0D4FAA89D0F8A0E545",
+				"20F35AFADAF0068B067E713F",
+				"D9BFFBBF4CC43DEE890B3C3E",
+				"C6937888E126BADC8777423B"
+			],
+			"isa": "PBXGroup",
+			"name": "osc",
+			"sourceTree": "<group>"
+		},
+		"32D1ECD6C135C77BA97F67BC": {
+			"explicitFileType": "sourcecode.c.c",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "options.c",
+			"path": "../../../addons/ofxMQTT/libs/mosquitto/src/options.c",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"335F43D916C1CBDCFAA1B125": {
+			"explicitFileType": "sourcecode.c.c",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "mosquitto.c",
+			"path": "../../../addons/ofxMQTT/libs/mosquitto/src/mosquitto.c",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"355E26A569113823B1F0B0EE": {
+			"fileRef": "BC21506D0EBAFD57D765AE33",
+			"isa": "PBXBuildFile"
+		},
+		"35965DA1C1353EA1396AAE81": {
+			"explicitFileType": "sourcecode.c.c",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "handle_disconnect.c",
+			"path": "../../../addons/ofxMQTT/libs/mosquitto/src/handle_disconnect.c",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"36485BEAF12A3FEAAB6EFF3C": {
+			"explicitFileType": "sourcecode.c.c",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "send_disconnect.c",
+			"path": "../../../addons/ofxMQTT/libs/mosquitto/src/send_disconnect.c",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"38871A5825686AE018EC2BF0": {
+			"children": [
+				"86D2677079A3AF4A5A88E29A"
+			],
+			"isa": "PBXGroup",
+			"name": "libs",
+			"sourceTree": "<group>"
+		},
+		"3A4DECDF4B1DB8DFE5755300": {
+			"explicitFileType": "sourcecode.c.c",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "messages_mosq.c",
+			"path": "../../../addons/ofxMQTT/libs/mosquitto/src/messages_mosq.c",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"3ACBBCD609D27CC6EC594491": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "dummypthread.h",
+			"path": "../../../addons/ofxMQTT/libs/mosquitto/src/dummypthread.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"3B361208CD4107E479F04E7B": {
+			"explicitFileType": "sourcecode.cpp.cpp",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "NetworkingUtils.cpp",
+			"path": "../../../addons/ofxOsc/libs/oscpack/src/ip/posix/NetworkingUtils.cpp",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"3B5A93662FC78C5825F602BC": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "mosquitto_internal.h",
+			"path": "../../../addons/ofxMQTT/libs/mosquitto/src/mosquitto_internal.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"3E777BE6A86ADD9AF9CD1C00": {
+			"explicitFileType": "sourcecode.c.c",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "handle_auth.c",
+			"path": "../../../addons/ofxMQTT/libs/mosquitto/src/handle_auth.c",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"41128E9B59DB19A2E4CB2593": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "utlist.h",
+			"path": "../../../addons/ofxMQTT/libs/mosquitto/src/utlist.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"41833AA3ED8DEAB0B9240888": {
+			"explicitFileType": "sourcecode.c.c",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "connect.c",
+			"path": "../../../addons/ofxMQTT/libs/mosquitto/src/connect.c",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"429F131710DF6DFA0215D9AB": {
+			"fileRef": "75F93827C0AC18BB9A4C5061",
+			"isa": "PBXBuildFile"
+		},
+		"444657A12E59D0ED86981498": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "TimerListener.h",
+			"path": "../../../addons/ofxOsc/libs/oscpack/src/ip/TimerListener.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"44DE9CF1E987E9EA87749691": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "time_mosq.h",
+			"path": "../../../addons/ofxMQTT/libs/mosquitto/src/time_mosq.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"48974F980F51769171D0B2F5": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "IpEndpointName.h",
+			"path": "../../../addons/ofxOsc/libs/oscpack/src/ip/IpEndpointName.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"4A5D508BC6826F402D221B8C": {
+			"explicitFileType": "sourcecode.c.c",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "logging_mosq.c",
+			"path": "../../../addons/ofxMQTT/libs/mosquitto/src/logging_mosq.c",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"4ADB88E2FB52E76A471065DE": {
+			"fileRef": "0AED834CE4DEC5260AF302A2",
+			"isa": "PBXBuildFile"
+		},
+		"4BE86EBC9CC015F905A9251D": {
+			"explicitFileType": "sourcecode.c.c",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "handle_ping.c",
+			"path": "../../../addons/ofxMQTT/libs/mosquitto/src/handle_ping.c",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"4D290A576BBE4CEF6E30861E": {
+			"fileRef": "F785481E783AC1B173C0F9F8",
+			"isa": "PBXBuildFile"
+		},
+		"4D37F848A198923CB25C73F3": {
+			"fileRef": "BF98232BAA692F434D1BFC3C",
+			"isa": "PBXBuildFile"
+		},
+		"4DD44A44D88D2C6519FCDB5E": {
+			"explicitFileType": "sourcecode.c.c",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "memory_mosq.c",
+			"path": "../../../addons/ofxMQTT/libs/mosquitto/src/memory_mosq.c",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"4E95FB446A9C9C6F0DE12D75": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "OscPrintReceivedElements.h",
+			"path": "../../../addons/ofxOsc/libs/oscpack/src/osc/OscPrintReceivedElements.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"510CAFE035E576A4E1502D52": {
+			"fileRef": "E6DEF695B88BA5FAACEAA937",
+			"isa": "PBXBuildFile"
+		},
+		"518C36239634BB5B71BBA541": {
+			"fileRef": "B1F8CE177C7A4F366DEE28FE",
+			"isa": "PBXBuildFile"
+		},
+		"5238C81C267C1BCAEB3497CA": {
+			"explicitFileType": "sourcecode.c.c",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "actions.c",
+			"path": "../../../addons/ofxMQTT/libs/mosquitto/src/actions.c",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"54F9B5AFA4546C273EF2404A": {
+			"fileRef": "C47B267674C0FB2984B769E8",
+			"isa": "PBXBuildFile"
+		},
+		"5864AD82E20F15536D054EA3": {
+			"fileRef": "DF49D76C45D5DB505A234880",
+			"isa": "PBXBuildFile"
+		},
+		"588AA7276A970A89692A5673": {
+			"fileRef": "4BE86EBC9CC015F905A9251D",
+			"isa": "PBXBuildFile"
+		},
+		"5A1E40FD42DBA5DF0D463E1E": {
+			"explicitFileType": "sourcecode.c.c",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "srv_mosq.c",
+			"path": "../../../addons/ofxMQTT/libs/mosquitto/src/srv_mosq.c",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"5BE93C7A688C8158A331EC4E": {
+			"fileRef": "3E777BE6A86ADD9AF9CD1C00",
+			"isa": "PBXBuildFile"
+		},
+		"62545D179C94265CA1389D4A": {
+			"fileRef": "63A47AC60FFAFC3BF093EC0F",
+			"isa": "PBXBuildFile"
+		},
+		"63A47AC60FFAFC3BF093EC0F": {
+			"explicitFileType": "sourcecode.cpp.cpp",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "OscOutboundPacketStream.cpp",
+			"path": "../../../addons/ofxOsc/libs/oscpack/src/osc/OscOutboundPacketStream.cpp",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"640279EE111671BD026CB013": {
+			"fileRef": "C2FAC65C491D4231379F3298",
+			"isa": "PBXBuildFile"
+		},
+		"641362CA659FAFEE4E81001B": {
+			"children": [
+				"3B361208CD4107E479F04E7B",
+				"E6DEF695B88BA5FAACEAA937"
+			],
+			"isa": "PBXGroup",
+			"name": "posix",
+			"sourceTree": "<group>"
+		},
+		"645D98D2C5852BC2335BBF8E": {
+			"explicitFileType": "sourcecode.c.c",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "alias_mosq.c",
+			"path": "../../../addons/ofxMQTT/libs/mosquitto/src/alias_mosq.c",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"65EC41F99C45AE1CFFDE3470": {
+			"fileRef": "3A4DECDF4B1DB8DFE5755300",
+			"isa": "PBXBuildFile"
+		},
+		"65EEFA3DA3526E9CDD9C21F9": {
+			"explicitFileType": "sourcecode.cpp.cpp",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "ofxOscBundle.cpp",
+			"path": "../../../addons/ofxOsc/src/ofxOscBundle.cpp",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"6602FD4C577716DFAA41D62F": {
+			"explicitFileType": "sourcecode.c.c",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "misc_mosq.c",
+			"path": "../../../addons/ofxMQTT/libs/mosquitto/src/misc_mosq.c",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"67276A9FB7B22309B4708A7D": {
+			"explicitFileType": "sourcecode.c.c",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "helpers.c",
+			"path": "../../../addons/ofxMQTT/libs/mosquitto/src/helpers.c",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"67FE4C7B15C2F0478C8126C2": {
+			"fileRef": "3B361208CD4107E479F04E7B",
+			"isa": "PBXBuildFile"
+		},
+		"6916B6DD29A60E830277EF47": {
+			"fileRef": "91C2499493EA62FE13CE033C",
+			"isa": "PBXBuildFile"
+		},
+		"6B65E6930994CC4B2D2B8B33": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "OscPacketListener.h",
+			"path": "../../../addons/ofxOsc/libs/oscpack/src/osc/OscPacketListener.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"708FAC37C4328CD7FCFC5E8A": {
+			"fileRef": "A7551F4B1097DC533D99E22D",
+			"isa": "PBXBuildFile"
+		},
+		"70D2C701C7F0797A33079850": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "will_mosq.h",
+			"path": "../../../addons/ofxMQTT/libs/mosquitto/src/will_mosq.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"70ECB1F720163CD7CED428E8": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "socks_mosq.h",
+			"path": "../../../addons/ofxMQTT/libs/mosquitto/src/socks_mosq.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"72A929D3561B8232A182ABFC": {
+			"fileRef": "65EEFA3DA3526E9CDD9C21F9",
+			"isa": "PBXBuildFile"
+		},
+		"72FABF3779322048847A3112": {
+			"explicitFileType": "sourcecode.c.c",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "time_mosq.c",
+			"path": "../../../addons/ofxMQTT/libs/mosquitto/src/time_mosq.c",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"730C7A8B1D5A7F69CF0D40FB": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "read_handle.h",
+			"path": "../../../addons/ofxMQTT/libs/mosquitto/src/read_handle.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"74238AE138CE2A3267A36D5D": {
+			"explicitFileType": "sourcecode.c.c",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "send_unsubscribe.c",
+			"path": "../../../addons/ofxMQTT/libs/mosquitto/src/send_unsubscribe.c",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"747D433221F7978F7D4383BA": {
+			"fileRef": "41833AA3ED8DEAB0B9240888",
+			"isa": "PBXBuildFile"
+		},
+		"74E6AF2C8A8BDC8BAC3E02BA": {
+			"explicitFileType": "sourcecode.c.c",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "handle_unsuback.c",
+			"path": "../../../addons/ofxMQTT/libs/mosquitto/src/handle_unsuback.c",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"75F93827C0AC18BB9A4C5061": {
+			"explicitFileType": "sourcecode.c.c",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "handle_publish.c",
+			"path": "../../../addons/ofxMQTT/libs/mosquitto/src/handle_publish.c",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"7689F8A0F3D0B7635A8C3104": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "ofxOscArg.h",
+			"path": "../../../addons/ofxOsc/src/ofxOscArg.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"77A67FDD8DB7629AE640ED14": {
+			"fileRef": "35965DA1C1353EA1396AAE81",
+			"isa": "PBXBuildFile"
+		},
+		"7CC0E9F48CF3D2D83CB1FAB7": {
+			"explicitFileType": "sourcecode.c.c",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "property_mosq.c",
+			"path": "../../../addons/ofxMQTT/libs/mosquitto/src/property_mosq.c",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"81967292BFC87A0144BD32C6": {
+			"explicitFileType": "sourcecode.cpp.cpp",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "ofxOscSender.cpp",
+			"path": "../../../addons/ofxOsc/src/ofxOscSender.cpp",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"82431B579B23B34FA0254E93": {
+			"fileRef": "32D1ECD6C135C77BA97F67BC",
+			"isa": "PBXBuildFile"
+		},
+		"8476DE402FD34F665F50D680": {
+			"fileRef": "FE590D6920F857770359DD04",
+			"isa": "PBXBuildFile"
+		},
+		"86D2677079A3AF4A5A88E29A": {
+			"children": [
+				"D27B2221A225CA523C019676"
+			],
+			"isa": "PBXGroup",
+			"name": "oscpack",
+			"sourceTree": "<group>"
+		},
+		"86E56FC6895A2058C9F55B92": {
+			"explicitFileType": "sourcecode.c.c",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "tls_mosq.c",
+			"path": "../../../addons/ofxMQTT/libs/mosquitto/src/tls_mosq.c",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"873D8CF518D9E9DD1F1CF6A5": {
+			"fileRef": "7CC0E9F48CF3D2D83CB1FAB7",
+			"isa": "PBXBuildFile"
+		},
+		"87597B443E265D13D50E9798": {
+			"fileRef": "F9550D43A7A9A99BA6246474",
+			"isa": "PBXBuildFile"
+		},
+		"879A251454401BC0B6E4F238": {
+			"fileRef": "D9BFFBBF4CC43DEE890B3C3E",
+			"isa": "PBXBuildFile"
+		},
+		"881F54889AB290CC505E24ED": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "packet_mosq.h",
+			"path": "../../../addons/ofxMQTT/libs/mosquitto/src/packet_mosq.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"8B30E93FD3D3475EED522A0E": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "ofxOscBundle.h",
+			"path": "../../../addons/ofxOsc/src/ofxOscBundle.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"8C540E3FCF66F0D394ED6954": {
+			"fileRef": "6602FD4C577716DFAA41D62F",
+			"isa": "PBXBuildFile"
+		},
+		"8C75AFC8774A62495DD53464": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "ofxOscReceiver.h",
+			"path": "../../../addons/ofxOsc/src/ofxOscReceiver.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"8F5205AEF8861EF234F0651A": {
+			"fileRef": "81967292BFC87A0144BD32C6",
+			"isa": "PBXBuildFile"
+		},
+		"8F533D77E66E6FEFC37999F2": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "tls_mosq.h",
+			"path": "../../../addons/ofxMQTT/libs/mosquitto/src/tls_mosq.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"8F5F3060A26DACB4E231E3DF": {
+			"explicitFileType": "sourcecode.c.c",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "send_connect.c",
+			"path": "../../../addons/ofxMQTT/libs/mosquitto/src/send_connect.c",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"91C2499493EA62FE13CE033C": {
+			"explicitFileType": "sourcecode.c.c",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "read_handle.c",
+			"path": "../../../addons/ofxMQTT/libs/mosquitto/src/read_handle.c",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"93DDD5610F4F457388FDB5DC": {
+			"explicitFileType": "sourcecode.c.c",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "utf8_mosq.c",
+			"path": "../../../addons/ofxMQTT/libs/mosquitto/src/utf8_mosq.c",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"96D7009D253F9D67EA3DD121": {
+			"fileRef": "72FABF3779322048847A3112",
+			"isa": "PBXBuildFile"
+		},
+		"996E15704F599A45214DE78C": {
+			"explicitFileType": "sourcecode.c.c",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "callbacks.c",
+			"path": "../../../addons/ofxMQTT/libs/mosquitto/src/callbacks.c",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"9BF3AA0D4FAA89D0F8A0E545": {
+			"explicitFileType": "sourcecode.cpp.cpp",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "OscReceivedElements.cpp",
+			"path": "../../../addons/ofxOsc/libs/oscpack/src/osc/OscReceivedElements.cpp",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"9D667BD792E0766F252F07BA": {
+			"explicitFileType": "sourcecode.c.c",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "socks_mosq.c",
+			"path": "../../../addons/ofxMQTT/libs/mosquitto/src/socks_mosq.c",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"9F7986DC4EB05E75FCE2C777": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "ofxOscSender.h",
+			"path": "../../../addons/ofxOsc/src/ofxOscSender.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"9F823FECD315A63D47A2D3F3": {
+			"explicitFileType": "sourcecode.c.c",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "handle_pubrel.c",
+			"path": "../../../addons/ofxMQTT/libs/mosquitto/src/handle_pubrel.c",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"A0A925F0FEF3EDF439ED5979": {
+			"children": [
+				"B363FF0365DCA1C3AE6A8373",
+				"27D2C077F8ABE97A697B4A6D"
+			],
+			"isa": "PBXGroup",
+			"name": "ofxMQTT",
+			"sourceTree": "<group>"
+		},
+		"A0B2FC2112EA4A88CEEE6085": {
+			"fileRef": "5238C81C267C1BCAEB3497CA",
+			"isa": "PBXBuildFile"
+		},
+		"A0CF4A5A2CDFA2726D964E5A": {
+			"fileRef": "74238AE138CE2A3267A36D5D",
+			"isa": "PBXBuildFile"
+		},
+		"A2AAA8CA403479E6FCDF920E": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "OscHostEndianness.h",
+			"path": "../../../addons/ofxOsc/libs/oscpack/src/osc/OscHostEndianness.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"A4340F3A21D33E59C412EC23": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "config.h",
+			"path": "../../../addons/ofxMQTT/libs/mosquitto/src/config.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"A7470AA0098F08B0BCEE7759": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "uthash.h",
+			"path": "../../../addons/ofxMQTT/libs/mosquitto/src/uthash.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"A7551F4B1097DC533D99E22D": {
+			"explicitFileType": "sourcecode.c.c",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "send_subscribe.c",
+			"path": "../../../addons/ofxMQTT/libs/mosquitto/src/send_subscribe.c",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"A787C986E75372E224152838": {
+			"fileRef": "0778943EDCB6C150A9CF519A",
+			"isa": "PBXBuildFile"
+		},
+		"A875F2E476C9337D7C4FA4DD": {
+			"explicitFileType": "sourcecode.c.c",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "will_mosq.c",
+			"path": "../../../addons/ofxMQTT/libs/mosquitto/src/will_mosq.c",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"ADD194746185E2DA11468377": {
+			"explicitFileType": "sourcecode.cpp.cpp",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "IpEndpointName.cpp",
+			"path": "../../../addons/ofxOsc/libs/oscpack/src/ip/IpEndpointName.cpp",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"ADE367465D2A8EBAD4C7A8D9": {
+			"fileRef": "ADD194746185E2DA11468377",
+			"isa": "PBXBuildFile"
+		},
+		"AE335EB4709BFD4671EEAC84": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "MessageMappingOscPacketListener.h",
+			"path": "../../../addons/ofxOsc/libs/oscpack/src/osc/MessageMappingOscPacketListener.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"B1F8CE177C7A4F366DEE28FE": {
+			"explicitFileType": "sourcecode.c.c",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "loop.c",
+			"path": "../../../addons/ofxMQTT/libs/mosquitto/src/loop.c",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"B31C608870ECEB2490A93736": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "ofxOscParameterSync.h",
+			"path": "../../../addons/ofxOsc/src/ofxOscParameterSync.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"B363FF0365DCA1C3AE6A8373": {
+			"children": [
+				"1C87E74B4BECE15C780624F9"
+			],
+			"isa": "PBXGroup",
+			"name": "libs",
+			"sourceTree": "<group>"
+		},
+		"B93FE97E077EB68F1BB54A08": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "alias_mosq.h",
+			"path": "../../../addons/ofxMQTT/libs/mosquitto/src/alias_mosq.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"BB4B014C10F69532006C3DED": {
+			"children": [
+				"A0A925F0FEF3EDF439ED5979",
+				"E6053AB7FEC63D5F83825B88"
+			],
+			"isa": "PBXGroup",
+			"name": "addons",
+			"path": "../../../addons",
+			"sourceTree": "<group>"
+		},
+		"BC21506D0EBAFD57D765AE33": {
+			"explicitFileType": "sourcecode.c.c",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "handle_connack.c",
+			"path": "../../../addons/ofxMQTT/libs/mosquitto/src/handle_connack.c",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"BC8881B3C8C0A1C45F042E7A": {
+			"explicitFileType": "sourcecode.cpp.cpp",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "OscPrintReceivedElements.cpp",
+			"path": "../../../addons/ofxOsc/libs/oscpack/src/osc/OscPrintReceivedElements.cpp",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"BD2F1A9F8D0C05EDB29122D0": {
+			"children": [
+				"00D6D32B84B099226431108C",
+				"7689F8A0F3D0B7635A8C3104",
+				"65EEFA3DA3526E9CDD9C21F9",
+				"8B30E93FD3D3475EED522A0E",
+				"DF49D76C45D5DB505A234880",
+				"C58862C6D212C8E8A83810F4",
+				"0AED834CE4DEC5260AF302A2",
+				"B31C608870ECEB2490A93736",
+				"C2FAC65C491D4231379F3298",
+				"8C75AFC8774A62495DD53464",
+				"81967292BFC87A0144BD32C6",
+				"9F7986DC4EB05E75FCE2C777"
+			],
+			"isa": "PBXGroup",
+			"name": "src",
+			"sourceTree": "<group>"
+		},
+		"BDBBD5DF1CF47FB34BEB1CB6": {
+			"fileRef": "8F5F3060A26DACB4E231E3DF",
+			"isa": "PBXBuildFile"
+		},
+		"BF98232BAA692F434D1BFC3C": {
+			"explicitFileType": "sourcecode.c.c",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "net_mosq_ocsp.c",
+			"path": "../../../addons/ofxMQTT/libs/mosquitto/src/net_mosq_ocsp.c",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"C2FAC65C491D4231379F3298": {
+			"explicitFileType": "sourcecode.cpp.cpp",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "ofxOscReceiver.cpp",
+			"path": "../../../addons/ofxOsc/src/ofxOscReceiver.cpp",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"C4782ECC372420ACE0615B74": {
+			"fileRef": "BC8881B3C8C0A1C45F042E7A",
+			"isa": "PBXBuildFile"
+		},
+		"C47B267674C0FB2984B769E8": {
+			"explicitFileType": "sourcecode.c.c",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "handle_pubrec.c",
+			"path": "../../../addons/ofxMQTT/libs/mosquitto/src/handle_pubrec.c",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"C58862C6D212C8E8A83810F4": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "ofxOscMessage.h",
+			"path": "../../../addons/ofxOsc/src/ofxOscMessage.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"C6937888E126BADC8777423B": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "OscTypes.h",
+			"path": "../../../addons/ofxOsc/libs/oscpack/src/osc/OscTypes.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"CCA9B4852A08400FA22DEC9C": {
+			"fileRef": "EB401833EDA649B4C7A0407B",
+			"isa": "PBXBuildFile"
+		},
+		"D15D9ECB2700BFB14789A771": {
+			"fileRef": "E1127148A89C799E5A5384E8",
+			"isa": "PBXBuildFile"
+		},
+		"D1EE6E4AC7380B02CDD508C6": {
+			"explicitFileType": "sourcecode.c.c",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "send_publish.c",
+			"path": "../../../addons/ofxMQTT/libs/mosquitto/src/send_publish.c",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"D27B2221A225CA523C019676": {
+			"children": [
+				"FF8CDF57858E9B94E3237115",
+				"30CB364908817057B430D528"
+			],
+			"isa": "PBXGroup",
+			"name": "src",
+			"sourceTree": "<group>"
+		},
+		"D6A1281F79D08D17E8EAD04E": {
+			"fileRef": "9D667BD792E0766F252F07BA",
+			"isa": "PBXBuildFile"
+		},
+		"D9BFFBBF4CC43DEE890B3C3E": {
+			"explicitFileType": "sourcecode.cpp.cpp",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "OscTypes.cpp",
+			"path": "../../../addons/ofxOsc/libs/oscpack/src/osc/OscTypes.cpp",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"DEEB3D08C66B2CFDBDBB142F": {
+			"fileRef": "36485BEAF12A3FEAAB6EFF3C",
+			"isa": "PBXBuildFile"
+		},
+		"DF49D76C45D5DB505A234880": {
+			"explicitFileType": "sourcecode.cpp.cpp",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "ofxOscMessage.cpp",
+			"path": "../../../addons/ofxOsc/src/ofxOscMessage.cpp",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"E1127148A89C799E5A5384E8": {
+			"explicitFileType": "sourcecode.c.c",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "thread_mosq.c",
+			"path": "../../../addons/ofxMQTT/libs/mosquitto/src/thread_mosq.c",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"E1E8305A5D0725A497F370F1": {
+			"fileRef": "86E56FC6895A2058C9F55B92",
+			"isa": "PBXBuildFile"
+		},
+		"E2249D7829E9AD51C3F4086E": {
+			"explicitFileType": "sourcecode.c.c",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "strings_mosq.c",
+			"path": "../../../addons/ofxMQTT/libs/mosquitto/src/strings_mosq.c",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"E42962A92163ECCD00A6A9E2": {
+			"alwaysOutOfDate": "1",
+			"buildActionMask": "2147483647",
+			"files": [],
+			"inputPaths": [],
+			"isa": "PBXShellScriptBuildPhase",
+			"name": "Run Script — Compile OF",
+			"outputPaths": [],
+			"runOnlyForDeploymentPostprocessing": "0",
+			"shellPath": "/bin/sh",
+			"shellScript": "echo \"💾 Compiling Openframeworks\"\nxcodebuild -project \"$OF_PATH/libs/openFrameworksCompiled/project/osx/openFrameworksLib.xcodeproj\" -target openFrameworks -configuration \"${CONFIGURATION}\"  CLANG_CXX_LANGUAGE_STANDARD=$CLANG_CXX_LANGUAGE_STANDARD MACOSX_DEPLOYMENT_TARGET=$MACOSX_DEPLOYMENT_TARGET GCC_PREPROCESSOR_DEFINITIONS=$USER_PREPROCESSOR_DEFINITIONS\n",
+			"showEnvVarsInLog": "0"
+		},
+		"E4A5B60F29BAAAE400C2D356": {
+			"buildActionMask": "2147483647",
+			"dstPath": "",
+			"dstSubfolderSpec": "6",
+			"files": [],
+			"isa": "PBXCopyFilesBuildPhase",
+			"runOnlyForDeploymentPostprocessing": "0"
+		},
+		"E4B69B4A0A3A1720003C02F2": {
+			"children": [
+				"191CD6FA2847E21E0085CBB6",
+				"E4B6FCAD0C3E899E008CF71C",
+				"E4EB6923138AFD0F00A09F29",
+				"E4B69E1C0A3A1BDC003C02F2",
+				"191EF70929D778A400F35F26",
+				"BB4B014C10F69532006C3DED",
+				"E4B69B5B0A3A1756003C02F2"
+			],
+			"isa": "PBXGroup",
+			"sourceTree": "<group>"
+		},
+		"E4B69B4C0A3A1720003C02F2": {
+			"attributes": {
+				"LastUpgradeCheck": "0600"
+			},
+			"buildConfigurationList": "E4B69B4D0A3A1720003C02F2",
+			"compatibilityVersion": "Xcode 3.2",
+			"developmentRegion": "en",
+			"hasScannedForEncodings": "0",
+			"isa": "PBXProject",
+			"knownRegions": [
+				"en",
+				"Base"
+			],
+			"mainGroup": "E4B69B4A0A3A1720003C02F2",
+			"productRefGroup": "E4B69B4A0A3A1720003C02F2",
+			"projectDirPath": "",
+			"projectRoot": "",
+			"targets": [
+				"E4B69B5A0A3A1756003C02F2"
+			]
+		},
+		"E4B69B4D0A3A1720003C02F2": {
+			"buildConfigurations": [
+				"E4B69B4E0A3A1720003C02F2",
+				"E4B69B4F0A3A1720003C02F2"
+			],
+			"defaultConfigurationIsVisible": "0",
+			"defaultConfigurationName": "Release",
+			"isa": "XCConfigurationList"
+		},
+		"E4B69B4E0A3A1720003C02F2": {
+			"baseConfigurationReference": "E4EB6923138AFD0F00A09F29",
+			"buildSettings": {
+				"CODE_SIGN_ENTITLEMENTS": "of.entitlements",
+				"COPY_PHASE_STRIP": "NO",
+				"ENABLE_TESTABILITY": "YES",
+				"GCC_OPTIMIZATION_LEVEL": "0",
+				"GCC_WARN_UNUSED_VARIABLE": "NO",
+				"HEADER_SEARCH_PATHS": [
+					"$(OF_CORE_HEADERS)",
+					"src",
+					"src",
+					"../../../addons/ofxMQTT/libs",
+					"../../../addons/ofxMQTT/libs/mosquitto",
+					"../../../addons/ofxMQTT/libs/mosquitto/src",
+					"../../../addons/ofxMQTT/src",
+					"../../../addons/ofxOsc/libs",
+					"../../../addons/ofxOsc/libs/oscpack",
+					"../../../addons/ofxOsc/libs/oscpack/src",
+					"../../../addons/ofxOsc/libs/oscpack/src/ip",
+					"../../../addons/ofxOsc/libs/oscpack/src/ip/posix",
+					"../../../addons/ofxOsc/libs/oscpack/src/osc",
+					"../../../addons/ofxOsc/src"
+				],
+				"OTHER_CPLUSPLUSFLAGS": "-D__MACOSX_CORE__"
+			},
+			"isa": "XCBuildConfiguration",
+			"name": "Debug"
+		},
+		"E4B69B4F0A3A1720003C02F2": {
+			"baseConfigurationReference": "E4EB6923138AFD0F00A09F29",
+			"buildSettings": {
+				"CODE_SIGN_ENTITLEMENTS": "of.entitlements",
+				"COPY_PHASE_STRIP": "YES",
+				"GCC_OPTIMIZATION_LEVEL": "3",
+				"GCC_UNROLL_LOOPS": "YES",
+				"HEADER_SEARCH_PATHS": [
+					"$(OF_CORE_HEADERS)",
+					"src",
+					"src",
+					"../../../addons/ofxMQTT/libs",
+					"../../../addons/ofxMQTT/libs/mosquitto",
+					"../../../addons/ofxMQTT/libs/mosquitto/src",
+					"../../../addons/ofxMQTT/src",
+					"../../../addons/ofxOsc/libs",
+					"../../../addons/ofxOsc/libs/oscpack",
+					"../../../addons/ofxOsc/libs/oscpack/src",
+					"../../../addons/ofxOsc/libs/oscpack/src/ip",
+					"../../../addons/ofxOsc/libs/oscpack/src/ip/posix",
+					"../../../addons/ofxOsc/libs/oscpack/src/osc",
+					"../../../addons/ofxOsc/src"
+				],
+				"OTHER_CPLUSPLUSFLAGS": "-D__MACOSX_CORE__"
+			},
+			"isa": "XCBuildConfiguration",
+			"name": "Release"
+		},
+		"E4B69B580A3A1756003C02F2": {
+			"buildActionMask": "2147483647",
+			"files": [
+				"E4B69E200A3A1BDC003C02F2",
+				"E4B69E210A3A1BDC003C02F2",
+				"A0B2FC2112EA4A88CEEE6085",
+				"EE41AC015F6151251F3DA988",
+				"1B78C660BAF6306EBD8C0C7F",
+				"747D433221F7978F7D4383BA",
+				"5BE93C7A688C8158A331EC4E",
+				"355E26A569113823B1F0B0EE",
+				"77A67FDD8DB7629AE640ED14",
+				"588AA7276A970A89692A5673",
+				"8476DE402FD34F665F50D680",
+				"429F131710DF6DFA0215D9AB",
+				"54F9B5AFA4546C273EF2404A",
+				"051E73FCFBEE061CC26C9C61",
+				"CCA9B4852A08400FA22DEC9C",
+				"28CB59985E95BF039A6BDCB1",
+				"06739045074CF04C9F6D0354",
+				"EE9F961E2D6B3E39F569C010",
+				"518C36239634BB5B71BBA541",
+				"2D662D89EF69AB6A87F2892F",
+				"65EC41F99C45AE1CFFDE3470",
+				"8C540E3FCF66F0D394ED6954",
+				"F17AD9A80378A96B6030573F",
+				"4D290A576BBE4CEF6E30861E",
+				"4D37F848A198923CB25C73F3",
+				"82431B579B23B34FA0254E93",
+				"11B4926947498FC107CB9ECA",
+				"0A5AB3D1E57CEE6842F5DAD6",
+				"873D8CF518D9E9DD1F1CF6A5",
+				"6916B6DD29A60E830277EF47",
+				"BDBBD5DF1CF47FB34BEB1CB6",
+				"DEEB3D08C66B2CFDBDBB142F",
+				"211F00C981FEC747712A3AC1",
+				"0B3A92A3B11E0B655F4B783F",
+				"708FAC37C4328CD7FCFC5E8A",
+				"A0CF4A5A2CDFA2726D964E5A",
+				"D6A1281F79D08D17E8EAD04E",
+				"1F44B27F39460F020134ED3A",
+				"205352D1195479FFFEC65BA9",
+				"D15D9ECB2700BFB14789A771",
+				"96D7009D253F9D67EA3DD121",
+				"E1E8305A5D0725A497F370F1",
+				"03AE18AA8CE7DD1DE06535EC",
+				"A787C986E75372E224152838",
+				"10FA40917A609D812747BF58",
+				"1D038DD67B41B307D59002C2",
+				"87597B443E265D13D50E9798",
+				"ADE367465D2A8EBAD4C7A8D9",
+				"67FE4C7B15C2F0478C8126C2",
+				"510CAFE035E576A4E1502D52",
+				"62545D179C94265CA1389D4A",
+				"C4782ECC372420ACE0615B74",
+				"0546D1A38E13BD319CC9755B",
+				"879A251454401BC0B6E4F238",
+				"72A929D3561B8232A182ABFC",
+				"5864AD82E20F15536D054EA3",
+				"4ADB88E2FB52E76A471065DE",
+				"640279EE111671BD026CB013",
+				"8F5205AEF8861EF234F0651A"
+			],
+			"isa": "PBXSourcesBuildPhase",
+			"runOnlyForDeploymentPostprocessing": "0"
+		},
+		"E4B69B590A3A1756003C02F2": {
+			"buildActionMask": "2147483647",
+			"files": [],
+			"isa": "PBXFrameworksBuildPhase",
+			"runOnlyForDeploymentPostprocessing": "0"
+		},
+		"E4B69B5A0A3A1756003C02F2": {
+			"buildConfigurationList": "E4B69B5F0A3A1757003C02F2",
+			"buildPhases": [
+				"E42962A92163ECCD00A6A9E2",
+				"E4B69B580A3A1756003C02F2",
+				"E4B69B590A3A1756003C02F2",
+				"E4C2427710CC5ABF004149E2",
+				"E4A5B60F29BAAAE400C2D356",
+				"19B789C429E5AB4A0082E9B8"
+			],
+			"buildRules": [],
+			"dependencies": [],
+			"isa": "PBXNativeTarget",
+			"name": "example-ofxMQTT",
+			"productName": "myOFApp",
+			"productReference": "E4B69B5B0A3A1756003C02F2",
+			"productType": "com.apple.product-type.application"
+		},
+		"E4B69B5B0A3A1756003C02F2": {
+			"explicitFileType": "wrapper.application",
+			"includeInIndex": "0",
+			"isa": "PBXFileReference",
+			"path": "example-ofxMQTTDebug.app",
+			"sourceTree": "BUILT_PRODUCTS_DIR"
+		},
+		"E4B69B5F0A3A1757003C02F2": {
+			"buildConfigurations": [
+				"E4B69B600A3A1757003C02F2",
+				"E4B69B610A3A1757003C02F2"
+			],
+			"defaultConfigurationIsVisible": "0",
+			"defaultConfigurationName": "Release",
+			"isa": "XCConfigurationList"
+		},
+		"E4B69B600A3A1757003C02F2": {
+			"baseConfigurationReference": "E4EB6923138AFD0F00A09F29",
+			"buildSettings": {
+				"ARCHS": "$(ARCHS_STANDARD)",
+				"COPY_PHASE_STRIP": "NO",
+				"FRAMEWORK_SEARCH_PATHS": "$(inherited)",
+				"GCC_DYNAMIC_NO_PIC": "NO",
+				"HEADER_SEARCH_PATHS": [
+					"$(OF_CORE_HEADERS)",
+					"src",
+					"src",
+					"../../../addons/ofxMQTT/libs",
+					"../../../addons/ofxMQTT/libs/mosquitto",
+					"../../../addons/ofxMQTT/libs/mosquitto/src",
+					"../../../addons/ofxMQTT/src",
+					"../../../addons/ofxOsc/libs",
+					"../../../addons/ofxOsc/libs/oscpack",
+					"../../../addons/ofxOsc/libs/oscpack/src",
+					"../../../addons/ofxOsc/libs/oscpack/src/ip",
+					"../../../addons/ofxOsc/libs/oscpack/src/ip/posix",
+					"../../../addons/ofxOsc/libs/oscpack/src/osc",
+					"../../../addons/ofxOsc/src"
+				],
+				"LIBRARY_SEARCH_PATHS": "$(inherited)",
+				"OTHER_LDFLAGS": [
+					"$(OF_CORE_LIBS)",
+					"$(OF_CORE_FRAMEWORKS)",
+					"$(LIB_OF_DEBUG)"
+				]
+			},
+			"isa": "XCBuildConfiguration",
+			"name": "Debug"
+		},
+		"E4B69B610A3A1757003C02F2": {
+			"baseConfigurationReference": "E4EB6923138AFD0F00A09F29",
+			"buildSettings": {
+				"ARCHS": "$(ARCHS_STANDARD)",
+				"COPY_PHASE_STRIP": "YES",
+				"FRAMEWORK_SEARCH_PATHS": "$(inherited)",
+				"HEADER_SEARCH_PATHS": [
+					"$(OF_CORE_HEADERS)",
+					"src",
+					"src",
+					"../../../addons/ofxMQTT/libs",
+					"../../../addons/ofxMQTT/libs/mosquitto",
+					"../../../addons/ofxMQTT/libs/mosquitto/src",
+					"../../../addons/ofxMQTT/src",
+					"../../../addons/ofxOsc/libs",
+					"../../../addons/ofxOsc/libs/oscpack",
+					"../../../addons/ofxOsc/libs/oscpack/src",
+					"../../../addons/ofxOsc/libs/oscpack/src/ip",
+					"../../../addons/ofxOsc/libs/oscpack/src/ip/posix",
+					"../../../addons/ofxOsc/libs/oscpack/src/osc",
+					"../../../addons/ofxOsc/src"
+				],
+				"LIBRARY_SEARCH_PATHS": "$(inherited)",
+				"OTHER_LDFLAGS": [
+					"$(OF_CORE_LIBS)",
+					"$(OF_CORE_FRAMEWORKS)",
+					"$(LIB_OF)"
+				],
+				"baseConfigurationReference": "E4EB6923138AFD0F00A09F29"
+			},
+			"isa": "XCBuildConfiguration",
+			"name": "Release"
+		},
+		"E4B69E1C0A3A1BDC003C02F2": {
+			"children": [
+				"E4B69E1D0A3A1BDC003C02F2",
+				"E4B69E1E0A3A1BDC003C02F2",
+				"E4B69E1F0A3A1BDC003C02F2"
+			],
+			"isa": "PBXGroup",
+			"path": "src",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"E4B69E1D0A3A1BDC003C02F2": {
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "sourcecode.cpp.cpp",
+			"name": "main.cpp",
+			"path": "src/main.cpp",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"E4B69E1E0A3A1BDC003C02F2": {
+			"explicitFileType": "sourcecode.cpp.cpp",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "ofApp.cpp",
+			"path": "src/ofApp.cpp",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"E4B69E1F0A3A1BDC003C02F2": {
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "sourcecode.c.h",
+			"name": "ofApp.h",
+			"path": "src/ofApp.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"E4B69E200A3A1BDC003C02F2": {
+			"fileRef": "E4B69E1D0A3A1BDC003C02F2",
+			"isa": "PBXBuildFile"
+		},
+		"E4B69E210A3A1BDC003C02F2": {
+			"fileRef": "E4B69E1E0A3A1BDC003C02F2",
+			"isa": "PBXBuildFile"
+		},
+		"E4B6FCAD0C3E899E008CF71C": {
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "text.plist.xml",
+			"path": "openFrameworks-Info.plist",
+			"sourceTree": "<group>"
+		},
+		"E4C2427710CC5ABF004149E2": {
+			"buildActionMask": "2147483647",
+			"dstPath": "",
+			"dstSubfolderSpec": "10",
+			"files": [],
+			"isa": "PBXCopyFilesBuildPhase",
+			"runOnlyForDeploymentPostprocessing": "0"
+		},
+		"E4EB6923138AFD0F00A09F29": {
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "text.xcconfig",
+			"path": "Project.xcconfig",
+			"sourceTree": "<group>"
+		},
+		"E6053AB7FEC63D5F83825B88": {
+			"children": [
+				"38871A5825686AE018EC2BF0",
+				"BD2F1A9F8D0C05EDB29122D0"
+			],
+			"isa": "PBXGroup",
+			"name": "ofxOsc",
+			"sourceTree": "<group>"
+		},
+		"E6DEF695B88BA5FAACEAA937": {
+			"explicitFileType": "sourcecode.cpp.cpp",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "UdpSocket.cpp",
+			"path": "../../../addons/ofxOsc/libs/oscpack/src/ip/posix/UdpSocket.cpp",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"E974CD4A26ED4E10E91FC4B7": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "logging_mosq.h",
+			"path": "../../../addons/ofxMQTT/libs/mosquitto/src/logging_mosq.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"EB401833EDA649B4C7A0407B": {
+			"explicitFileType": "sourcecode.c.c",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "handle_suback.c",
+			"path": "../../../addons/ofxMQTT/libs/mosquitto/src/handle_suback.c",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"EB87FF939E869F210F314D2F": {
+			"explicitFileType": "sourcecode.c.c",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "send_mosq.c",
+			"path": "../../../addons/ofxMQTT/libs/mosquitto/src/send_mosq.c",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"EE41AC015F6151251F3DA988": {
+			"fileRef": "645D98D2C5852BC2335BBF8E",
+			"isa": "PBXBuildFile"
+		},
+		"EE9F961E2D6B3E39F569C010": {
+			"fileRef": "4A5D508BC6826F402D221B8C",
+			"isa": "PBXBuildFile"
+		},
+		"F17AD9A80378A96B6030573F": {
+			"fileRef": "335F43D916C1CBDCFAA1B125",
+			"isa": "PBXBuildFile"
+		},
+		"F2704D53FDEEEC4A206B1390": {
+			"explicitFileType": "sourcecode.c.c",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "util_topic.c",
+			"path": "../../../addons/ofxMQTT/libs/mosquitto/src/util_topic.c",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"F4F5B6B8BA2BD52C646ED908": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "OscException.h",
+			"path": "../../../addons/ofxOsc/libs/oscpack/src/osc/OscException.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"F785481E783AC1B173C0F9F8": {
+			"explicitFileType": "sourcecode.c.c",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "net_mosq.c",
+			"path": "../../../addons/ofxMQTT/libs/mosquitto/src/net_mosq.c",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"F7FBC56859535E597B24BB91": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "NetworkingUtils.h",
+			"path": "../../../addons/ofxOsc/libs/oscpack/src/ip/NetworkingUtils.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"F805BEEC53A63135FB70B646": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "send_mosq.h",
+			"path": "../../../addons/ofxMQTT/libs/mosquitto/src/send_mosq.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"F9550D43A7A9A99BA6246474": {
+			"explicitFileType": "sourcecode.cpp.cpp",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "ofxMQTT.cpp",
+			"path": "../../../addons/ofxMQTT/src/ofxMQTT.cpp",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"FE590D6920F857770359DD04": {
+			"explicitFileType": "sourcecode.c.c",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "handle_pubackcomp.c",
+			"path": "../../../addons/ofxMQTT/libs/mosquitto/src/handle_pubackcomp.c",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"FE718A5FE1EF61DF9DA49D7A": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "mqtt_protocol.h",
+			"path": "../../../addons/ofxMQTT/libs/mosquitto/src/mqtt_protocol.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"FF8CDF57858E9B94E3237115": {
+			"children": [
+				"ADD194746185E2DA11468377",
+				"48974F980F51769171D0B2F5",
+				"F7FBC56859535E597B24BB91",
+				"23640F57DF6C4BB6BFC5DA4C",
+				"444657A12E59D0ED86981498",
+				"2FD4B0329909D3527F003494",
+				"641362CA659FAFEE4E81001B"
+			],
+			"isa": "PBXGroup",
+			"name": "ip",
+			"sourceTree": "<group>"
+		}
+	},
+	"rootObject": "E4B69B4C0A3A1720003C02F2"
+}
