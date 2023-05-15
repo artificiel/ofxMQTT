@@ -48,6 +48,7 @@ class ofxMQTT {
   bool connected();
   void disconnect();
 
+  std::string lib_version();
   ofEvent<void> onOnline;
   ofEvent<ofxMQTTMessage> onMessage;
   ofEvent<void> onOffline;

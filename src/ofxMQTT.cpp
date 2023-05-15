@@ -113,6 +113,12 @@ void ofxMQTT::update() {
     int rc2 = mosquitto_reconnect(mosq);
     if (rc2 != MOSQ_ERR_SUCCESS) {
       ofLogError("ofxMQTT") << "Reconnect error: " << mosquitto_strerror(rc2);
+std::string ofxMQTT::lib_version() {
+  int x, y, z;
+  mosquitto_lib_version(&x, &y, &z);
+  return ofToString(x) + "." + ofToString(y) + "." + ofToString(z);
+}
+
     }
   }
 }
